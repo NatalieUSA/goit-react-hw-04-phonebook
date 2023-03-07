@@ -1,18 +1,22 @@
 import PropTypes from 'prop-types';
 
-import { Button } from 'components/shared/Button/Button';
+// import { Button } from 'components/shared/Button/Button';
 import { BsTelephone } from 'react-icons/bs';
 import { ListItem } from './PhonebookList.styled';
 import { List } from './PhonebookList.styled';
+import { Btn } from 'components/shared/Button/Button.styled';
 
 export const PhonebookList = ({ removeContact, contacts }) => {
   const contact = contacts.map(({ id, name, number }) => (
     <ListItem key={id}>
       {name}
       <BsTelephone /> {number}
-      <Button type="submit" onClick={() => removeContact(id)}>
+      <Btn type="submit" onClick={() => removeContact(id)}>
         delete
-      </Button>
+      </Btn>
+      {/* <Button type="submit" onClick={removeContact(id)}> */}
+      {/* delete
+      </Button> */}
     </ListItem>
   ));
   return <List>{contact}</List>;
