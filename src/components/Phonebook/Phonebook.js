@@ -68,12 +68,17 @@ export const Phonebook = () => {
     return result;
   };
 
+  // const removeContact = id => {
+  //   console.log(id);
+  //   setContacts(prevContacts => {
+  //     console.log(prevContacts);
+  //     // prevContacts.filter(contact => contact.id !== id);
+  //     prevContacts.filter(contact => console.log(contact.id));
+  //   });
+  // };
   const removeContact = id => {
-    console.log(id);
     setContacts(prevContacts => {
-      console.log(prevContacts);
-      // prevContacts.filter(contact => contact.id !== id);
-      prevContacts.filter(contact => console.log(contact.id));
+      return prevContacts.filter(contact => contact.id !== id);
     });
   };
 
