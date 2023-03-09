@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
 
-// import { Button } from 'components/shared/Button/Button';
 import { BsTelephone } from 'react-icons/bs';
 import { ListItem } from './PhonebookList.styled';
 import { List } from './PhonebookList.styled';
@@ -14,9 +13,6 @@ export const PhonebookList = ({ removeContact, contacts }) => {
       <Btn type="submit" onClick={() => removeContact(id)}>
         delete
       </Btn>
-      {/* <Button type="submit" onClick={removeContact(id)}> */}
-      {/* delete
-      </Button> */}
     </ListItem>
   ));
   return <List>{contact}</List>;

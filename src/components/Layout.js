@@ -7,8 +7,6 @@ export const Layout = styled.div`
   width: 100%;
   font-size: 10px;
 
-  // background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-
   @media (max-width: 767px) {
     font-size: 11px;
   }

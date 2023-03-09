@@ -8,7 +8,7 @@ export const App = () => {
   return (
     <Layout>
       <GlobalStyle />
-      <Title>Phonebook</Title>
+      {/* <Title>Phonebook</Title> */}
 
       <Phonebook />
     </Layout>

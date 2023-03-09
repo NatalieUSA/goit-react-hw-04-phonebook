@@ -20,7 +20,7 @@ export const PhonebookForm = ({ onSubmit }) => {
 
   const handleSubmit = e => {
     e.preventDefault();
-    onSubmit({ name, number });
+    onSubmit({ ...state });
     setState({ ...initialState });
   };
 
@@ -55,7 +55,6 @@ export const PhonebookForm = ({ onSubmit }) => {
         />
       </FormGroup>
       <Btn type="submit">Add contact</Btn>
-      {/* <Button type="submit">Add contact</Button> */}
     </form>
   );
 };
