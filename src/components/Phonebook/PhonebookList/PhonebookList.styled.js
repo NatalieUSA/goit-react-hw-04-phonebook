@@ -11,24 +11,26 @@ export const List = styled.ul`
   position: relative;
   display: block;
   overflow: overlay;
-  max-height: 350px;
+  // max-height: 350px;
   box-sizing: border-box;
   list-style: none;
   margin: 0 auto;
   padding: 40px;
   border-radius: 25px;
   box-shadow: inset 6px 6px 6px 0px #68b4cf, inset -6px -10px 10px 0px #68b4cf;
-  &::-webkit-scrollbar {
-    width: 17px;
-    height: 5px;
-    border-radius: 50px;
-    margin-top: 20px;
-  }
-  &::-webkit-scrollbar-thumb {
-    background-color: #68b4cf;
-    border-radius: 50px; /* округлось бегунка */
-    border: 2px solid #cd5a79; /* отступ вокруг бегунка */
-  }
+  // scrollbar == do not working in mozilla
+
+  // &::-webkit-scrollbar {
+  //   width: 17px;
+  //   height: 5px;
+  //   border-radius: 50px;
+  //   margin-top: 20px;
+  // }
+  // &::-webkit-scrollbar-thumb {
+  //   background-color: #68b4cf;
+  //   border-radius: 50px; /* округлось бегунка */
+  //   border: 2px solid #cd5a79; /* отступ вокруг бегунка */
+  // }
 
   width: 55%;
   height: 15%;
