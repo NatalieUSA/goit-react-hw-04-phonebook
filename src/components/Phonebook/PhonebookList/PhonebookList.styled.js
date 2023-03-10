@@ -28,8 +28,8 @@ export const List = styled.ul`
   // }
   // &::-webkit-scrollbar-thumb {
   //   background-color: #68b4cf;
-  //   border-radius: 50px; /* округлось бегунка */
-  //   border: 2px solid #cd5a79; /* отступ вокруг бегунка */
+  //   border-radius: 50px;
+  //   border: 2px solid #cd5a79;
   // }
 
   width: 55%;

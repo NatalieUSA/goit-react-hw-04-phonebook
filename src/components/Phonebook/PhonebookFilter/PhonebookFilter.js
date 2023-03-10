@@ -9,7 +9,7 @@ export const PhonebookFilter = ({ handleChange }) => {
       <Input
         name="filter"
         onChange={handleChange}
-        placeholder="Find contacts by name"
+        placeholder="find contacts by name"
       />
     </FormGroup>
   );
