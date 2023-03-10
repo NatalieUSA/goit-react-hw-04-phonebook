@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { nanoid } from 'nanoid';
+import { toast } from 'react-toastify';
 
 import { PhonebookList } from './PhonebookList/PhonebookList';
 import { PhonebookFilter } from './PhonebookFilter/PhonebookFilter';
@@ -20,7 +21,7 @@ export const Phonebook = () => {
 
   const addContact = ({ name, number }) => {
     if (isDublicate(name)) {
-      alert(`${name} is already in contacts`);
+      toast.success(`${name} 🦄 is already in contacts`);
       return false;
     }
 

@@ -1,48 +1,25 @@
 import styled from 'styled-components';
 
 export const Btn = styled.button`
-  width: 110px;
-  border: 1px solid rgb(204, 204, 204);
-  background-color: rgb(230, 229, 229);
-  border-radius: 7px;
-  text-decoration: none;
+
   cursor: pointer;
-  color: deeppink;
-  text-transform: uppercase;
+  display: inline-block;
+  outline: none;
+  border-radius: 50px;
+   background-color: #68b4cf;
+  color: yellow;
+
   text-align: center;
+   border-style: none;
+  box-shadow: 2px 2px 1px grey;
+  font-size: small;
+  height: 50px;
+  width: 50px;
+  line-height: 1;
 
   :hover {
-    background-color: rgb(160, 159, 159);
-    text-transform: lowercase;
-  }
-
-  @media (max-width: 320px) {
-    font-size: 8px;
-    padding: 0px 0px;
-  }
-
-  @media (max-width: 420px) {
-    font-size: 8px;
-    padding: 8px 8px;
-    width: 80px;
-  }
-
-  @media (max-width: 767px) {
-    font-size: 10px;
-    padding: 5px 10px;
-  }
-
-  @media (min-width: 768px) {
-    font-size: 10px;
-    padding: 8px 15px;
-  }
-
-  @media (min-width: 1020px) {
-    font-size: 10px;
-  }
+   
+  text-transform: lowercase;
+   background-color: yellow;
+    color:#68b4cf;
 `;
-
-// .btn.active {
-//   background-color: deeppink;
-//   color: white;
-// }

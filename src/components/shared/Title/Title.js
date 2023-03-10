@@ -1,7 +1,12 @@
 import PropTypes from 'prop-types';
+import { Wrap } from './Title.styled';
 
 export const Title = ({ children }) => {
-  return <h2>{children}</h2>;
+  return (
+    <Wrap>
+      <h2>{children}</h2>
+    </Wrap>
+  );
 };
 
 Title.protoTypes = {

@@ -5,8 +5,12 @@ import { FormGroup, Label, Input } from './PhonebookFilter.styled';
 export const PhonebookFilter = ({ handleChange }) => {
   return (
     <FormGroup>
-      <Label>Find contacts by name</Label>
-      <Input name="filter" onChange={handleChange} placeholder="enter name" />
+      <Label></Label>
+      <Input
+        name="filter"
+        onChange={handleChange}
+        placeholder="Find contacts by name"
+      />
     </FormGroup>
   );
 };

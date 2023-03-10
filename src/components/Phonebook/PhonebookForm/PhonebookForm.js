@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 
 import { initialState } from './initialState';
 import { FormGroup, Input, Label } from './PhonebookForm.styled';
-import { Btn } from 'components/shared/Button/Button.styled';
+import { FormBtn } from './PhonebookForm.styled';
 
 export const PhonebookForm = ({ onSubmit }) => {
   const [state, setState] = useState({ ...initialState });
@@ -29,7 +29,7 @@ export const PhonebookForm = ({ onSubmit }) => {
   return (
     <form onSubmit={handleSubmit}>
       <FormGroup>
-        <Label>Name</Label>
+        <Label></Label>
         <Input
           onChange={handleChange}
           placeholder="enter name"
@@ -40,9 +40,8 @@ export const PhonebookForm = ({ onSubmit }) => {
           title="Name may contain only letters, apostrophe, dash and spaces. For example Adrian, Jacob Mercer, Charles de Batz de Castelmore d'Artagnan"
           required
         />
-      </FormGroup>
-      <FormGroup>
-        <Label>Number</Label>
+
+        <Label></Label>
         <Input
           onChange={handleChange}
           placeholder="enter number"
@@ -53,8 +52,8 @@ export const PhonebookForm = ({ onSubmit }) => {
           title="Phone number must be digits and can contain spaces, dashes, parentheses and can start with +"
           required
         />
+        <FormBtn type="submit">Add contact</FormBtn>
       </FormGroup>
-      <Btn type="submit">Add contact</Btn>
     </form>
   );
 };

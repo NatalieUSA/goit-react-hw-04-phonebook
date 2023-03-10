@@ -18,7 +18,7 @@ body {
  //background-image: url("https://dejpknyizje2n.cloudfront.net/marketplace/products/wow-pop-art-woman-sticker-1540400543.6055257.png");
  background-image: url("https://t4.ftcdn.net/jpg/01/79/37/99/240_F_179379926_LP8w6b3wNDfImZoZTEAdOgzNTEJd4oxF.jpg");
 
-
+color:yellow;
 }
 
 code {
@@ -27,7 +27,7 @@ code {
 }
 
 h2 {
-  color: grey;
+  color: yellow;
   text-align: center;
   margin: 50px 0;
 }
