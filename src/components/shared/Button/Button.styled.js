@@ -12,7 +12,7 @@ export const Btn = styled.button`
   text-align: center;
    border-style: none;
   box-shadow: 2px 2px 1px grey;
-  font-size: small;
+  font-size: xx-small;
   height: 50px;
   width: 50px;
   line-height: 1;

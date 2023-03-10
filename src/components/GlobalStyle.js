@@ -1,5 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 import 'modern-normalize';
+import './bcg-img.jpg';
 
 export const GlobalStyle = createGlobalStyle`
 
@@ -17,6 +18,8 @@ body {
  // background-image: url("https://t3.ftcdn.net/jpg/01/42/21/46/240_F_142214653_ftgyRJEwVPypMx6hvdNd0xQQQ2oUK0pq.jpg");
  //background-image: url("https://dejpknyizje2n.cloudfront.net/marketplace/products/wow-pop-art-woman-sticker-1540400543.6055257.png");
  background-image: url("https://t4.ftcdn.net/jpg/01/79/37/99/240_F_179379926_LP8w6b3wNDfImZoZTEAdOgzNTEJd4oxF.jpg");
+
+
 
 color:yellow;
 }

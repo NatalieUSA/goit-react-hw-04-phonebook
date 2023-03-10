@@ -41,7 +41,7 @@ export const FormGroup = styled.div`
 `;
 
 export const Input = styled.input`
-  width: 70%;
+  width: 80%;
   background: transparent;
   border: none;
   border-bottom: 0.5px solid deeppink;
@@ -52,9 +52,9 @@ export const Input = styled.input`
   font-size: large;
   color: deeppink;
 
-  @media (max-width: 320px) {
-    width: 95%;
-  }
+  // @media (max-width: 1020px) {
+  //   width: 95%;
+  // }
 `;
 
 export const Label = styled.label``;

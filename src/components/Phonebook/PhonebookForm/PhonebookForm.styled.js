@@ -62,12 +62,12 @@ export const Label = styled.label``;
 export const FormBtn = styled.button`
   text-align: center;
   margin-top: 30px;
-  height: 80px;
-  width: 80px;
+  height: 90px;
+  width: 90px;
   border-radius: 50px;
  cursor: pointer;
 
-  font-size: small;
+  font-size: xx-small;
   text-transform: uppercase;
  
   background-color: yellow;
@@ -80,5 +80,6 @@ export const FormBtn = styled.button`
   text-transform: lowercase;
   background-color: deeppink;
   color: yellow;
+
 
 `;
